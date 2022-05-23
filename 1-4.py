@@ -3,7 +3,7 @@
 
 number = int(input('Введите целое положительное число: '))
 num_max = 0
-while number > 10:
+while number >= 9:
     n = number % 10
     number = number//10
     if n > num_max:
